@@ -1192,4 +1192,14 @@ h3 i {
     float: right;
 }
 
+@media screen and (max-width: 768px) {
+    .cont5tpa {
+        display: flex;
+        flex-direction: column-reverse;align-items: center; }
 
+    .col-md-6 {
+        order: 1;}
+
+    .cont5tpa {
+        order: 2; }
+}
