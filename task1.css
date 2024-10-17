@@ -103,7 +103,6 @@
     font-weight: 700;
     color: #2A3855;
     letter-spacing: 0.5px;
-
     white-space: 1rem;
     text-align: left;
 }
@@ -133,7 +132,6 @@
     font-family: monospace;
     font-weight: bold;
     line-height: 35px;
-
     float: left;
     margin-left: 20px;
 
@@ -150,7 +148,6 @@
     font-family: monospace;
     font-weight: bold;
     line-height: 35px;
-
     float: left;
     margin-left: 20px;
 
@@ -235,6 +232,10 @@
     flex-direction: column;
 
 
+    animation: slideUpFadeIn 1s ease forwards; 
+    animation-delay: 0.3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
 }
 
 .part2h {
@@ -246,8 +247,11 @@
     width: 80%;
     margin-top: 20px;
     text-align: center;
+    
 
 }
+
+
 
 .part2p {}
 
@@ -273,6 +277,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .cardmain {
@@ -280,9 +289,14 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
+    height: 310px;
     width: 300px;
     margin: 10px;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .iconcard {
@@ -296,6 +310,11 @@
     padding: 35px;
     border: 0.1px solid rgba(105, 102, 102, 0.788);
     border-radius: 50%;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .textandhcard {
@@ -353,6 +372,11 @@
     justify-content: center;
     width: 100%;
     margin-bottom: 100px;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .video iframe {
@@ -391,6 +415,11 @@
 .maincont4 {
     display: flex;
     flex-direction: row;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 @media (max-width: 767px) {
@@ -462,6 +491,10 @@
 
     width: 100%;
 
+    animation: slideUpFadeIn 1s ease forwards; 
+    animation-delay: 0.3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
 
 
 }
@@ -485,24 +518,23 @@
 
 .card-body1 {
     display: flex;
+    position: relative;
+    top: 20px;
     flex-direction: column;
-    justify-content: center;
+    
     text-align: left;
 
 
 }
 
 .cardmy1 {
-    display: flex;
+    
     float: left;
 
     color: #1e345e;
     font-weight: 700;
     font-size: 28px;
-
-    height: 100%;
-
-    display: flex;
+display: flex;
 
 
 }
@@ -546,6 +578,11 @@
     align-items: center;
     flex-direction: column;
     background-color: #2c426d;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 
@@ -572,6 +609,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .cardmainaa {
@@ -581,7 +623,12 @@
     justify-content: center;
     height: 400px;
     width: 300px;
-    margin: 10px;
+    margin: 0px 10px 10px 10px;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .iconcarda {
@@ -595,7 +642,48 @@
     padding: 15px;
     border: none;
     border-radius: 50%;
+   
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
+   
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
+
+@keyframes slideUpFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+
+.animate {
+    opacity: 0;  
+    animation: slideUpFadeIn 1s ease forwards; 
+    animation-delay: 0.3s; 
+}
+
+.animate-delay-1 {
+    animation-delay: 0.5s;
+}
+
+.animate-delay-2 {
+    animation-delay: 0.7s;
+}
+
+.animate-delay-3 {
+    animation-delay: 1s;
+}
+
 
 .textandhcard {
     display: flex;
@@ -662,6 +750,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 80px;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .cont8hh {
@@ -679,6 +772,7 @@
 }
 
 .cont8a {
+
     width: 40%;
     display: flex;
     border: 2px solid rgb(250, 201, 21);
@@ -781,6 +875,11 @@ input[type="button"] {
     color: #2A3855;
     font-weight: 500;
     opacity: 0.6;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 
@@ -813,6 +912,11 @@ input[type="button"] {
     font-size: 14px;
     color: #2A3855;
     opacity: 0.5;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 
@@ -881,17 +985,27 @@ input[type="button"] {
     min-height: 600px;
     background-color: #3D4C6F;
     padding: 40px;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .a13 {
     text-align: center;
-    padding: 50px 50px;
+    padding: 50px 20px;
 
     border-radius: 13px;
     background-color: #2A3855;
-    width: 50%;
+    width:60%;
     max-height: 280px;
     margin: 10px 20px;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .a13 h2,
@@ -965,6 +1079,11 @@ input[type="button"] {
     display: flex;
     background-color: #1e345e;
     color: #efeded;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .di13h33,
@@ -1034,6 +1153,11 @@ input[type="button"] {
     margin-top: 40px;
     margin-bottom: 40px;
     background-color: white;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .d14m1 {
@@ -1041,11 +1165,21 @@ input[type="button"] {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .d14m1 img {
     max-width: 100%;
     height: auto;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .d14m2 {
@@ -1147,6 +1281,7 @@ h3 i {
 }
 
 .mainlast1 {
+
     display: flex;
     flex-direction: column;
     width: calc(33.33% - 20px);
@@ -1154,6 +1289,11 @@ h3 i {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     overflow: hidden;
+    
+   animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 }
 
 .mainlast2 {
