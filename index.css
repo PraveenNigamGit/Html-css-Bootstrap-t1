@@ -1393,3 +1393,20 @@ h3 i {
     animation-iteration-count: 1; 
     animation-fill-mode: forwards;
 }
+
+
+.div12212 {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.big12 {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain; 
+    position: relative;
+}
