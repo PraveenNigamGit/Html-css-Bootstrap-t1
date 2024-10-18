@@ -821,45 +821,45 @@ input[type="button"] {
 
 @media (max-width: 1024px) {
     .cont8a {
-        width: 30vw; /* Adjust to 30vw for tablets */
+        width: 30vw; 
     }
 
     .cont8b {
-        width: 68vw; /* Adjust to match the 30vw size */
+        width: 68vw; 
     }
 }
 
 @media (max-width: 768px) {
     .cont8a,
     .cont8b {
-        width: 100%; /* Full width for smaller screens */
+        width: 100%; 
         flex-direction: column;
-        margin-right: 0; /* Remove any margin */
+        margin-right: 0; 
     }
 
     .fform {
-        flex-direction: column; /* Stack inputs vertically */
+        flex-direction: column; 
     }
 
     input[type="text"],
     input[type="button"] {
-        width: 100%; /* Full width for inputs */
-        margin-bottom: 10px; /* Spacing between inputs */
+        width: 100%;
+        margin-bottom: 10px; 
     }
 
     .subject-submit {
         flex-direction: column;
-        width: 100%; /* Full width for submit buttons */
+        width: 100%;
     }
 }
 
 @media (min-width: 769px) {
     .cont8a {
-        max-width: 25vw; /* Maintain 25vw for larger screens */
+        max-width: 25vw; 
     }
 
     .cont8b {
-        max-width: 73vw; /* Maintain 75vw for larger screens */
+        max-width: 73vw;
     }
 }
 
