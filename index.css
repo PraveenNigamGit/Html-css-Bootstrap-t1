@@ -3,6 +3,7 @@
     font-weight: 900;
     line-height: 1rem;
     font-size: 14px;
+    word-spacing:1px;
 }
 
 .rowmy {
@@ -10,6 +11,7 @@
     top: 0;
     background: #f7f6f6b9;
     z-index: 1000;
+    padding-left:6%; padding-right: 6%;
 }
 
 .main1 {
@@ -77,6 +79,8 @@
 
 .button-group {
     margin-top: 10px;
+    margin-left: 15px;
+    width: 100%;
 }
 
 .btn {
@@ -209,10 +213,12 @@
 }
 
 .fontaws {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     color: transparent;
-    background-color: rgb(225, 211, 10);
+    word-spacing: 1cm;
+    font-family: sans-serif;
+    background-color: #fdd428;
     background-clip: text;
 }
 
@@ -228,7 +234,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
     flex-direction: column;
 
 
@@ -240,12 +246,13 @@
 
 .part2h {
     display: flex;
-    font-weight: 700;
+    font-weight: 650;
     color: #2A3855;
     justify-content: center;
     align-items: center;
     width: 80%;
-    margin-top: 20px;
+    padding:5%;
+    padding-bottom: 1%;
     text-align: center;
     
 
@@ -261,7 +268,7 @@
     background: #2A3855;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 
 }
 
@@ -273,7 +280,7 @@
 
 
 .cont3 {
-    margin-top: 20px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -305,9 +312,12 @@
     align-items: center;
     text-align: center;
     font-size: 60px;
-    background: #f4f4f4;
+    background: #f4f4f4d7;
     color: #1e345e;
     padding: 35px;
+    height:100px ;
+    width:100px ;
+
     border: 0.1px solid rgba(105, 102, 102, 0.788);
     border-radius: 50%;
     
@@ -321,30 +331,24 @@
     display: flex;
     font-weight: bold;
     color: #1e345e;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.card1h2 {
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    font-weight: 700;
-    margin-top: 30px;
-    font-size: 28px;
 
-    margin-bottom: 15px;
-}
 
 .card1h4 {
-    width: 80%;
-    margin-left: 30px;
-    margin-right: 30px;
+    width: 100%;
+
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 24px;
     color: gray;
     font-size: medium;
 }
@@ -371,8 +375,10 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 100px;
-    
+    margin-bottom: 1%;
+    padding-left: 5%;
+    padding-right:5% ;
+     align-items: center;  
    animation: slideUpFadeIn 1s ease forwards; 
    animation-delay: 0.3s; 
    animation-iteration-count: 1; 
@@ -380,7 +386,9 @@
 }
 
 .video iframe {
-    width: 90%;
+    width: 99%;
+    justify-content: center;
+    display: flex;
     border-radius: 20px;
     height: 550px;
     max-width: 100%;
@@ -401,7 +409,7 @@
     .video iframe {
         width: 90%;
         border-radius: 20px;
-        height: 50vw;
+        height: 55vw;
         max-width: 99%;
         border: none;
     }
@@ -415,7 +423,6 @@
 .maincont4 {
     display: flex;
     flex-direction: row;
-    
    animation: slideUpFadeIn 1s ease forwards; 
    animation-delay: 0.3s; 
    animation-iteration-count: 1; 
@@ -486,7 +493,7 @@
 
 
 .cont5 {
-    background: #efeded;
+    background: #FAFAFA;
     padding: 30px;
 
     width: 100%;
@@ -531,7 +538,6 @@
 .cardmy1 {
     
     float: left;
-
     color: #1e345e;
     font-weight: 700;
     font-size: 28px;
@@ -573,12 +579,14 @@ display: flex;
 
 .conta7 {
     display: flex;
-    padding: 30px 10px;
-    justify-content: center;
+    padding: 5%;
+    justify-content: space-around;
     text-align: center;
     align-items: center;
-    flex-direction: column;
-    background-color: #2c426d;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    background-color: #2A3855;
     
    animation: slideUpFadeIn 1s ease forwards; 
    animation-delay: 0.3s; 
@@ -589,14 +597,18 @@ display: flex;
 
 .conta7h {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     color: white;
     font-size: 26px;
     font-weight: 700;
 }
 
 .conta7b {
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: 800;
+    color: #2A3855;
+    font-size: 12px;
+    padding: 12px 40px;
 
 }
 
@@ -606,7 +618,6 @@ display: flex;
 
 
 .cont3 {
-    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -622,8 +633,7 @@ display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
-    width: 300px;
+    width: 350px;
     margin: 0px 10px 10px 10px;
     
    animation: slideUpFadeIn 1s ease forwards; 
@@ -635,6 +645,7 @@ display: flex;
 .iconcarda {
     justify-content: center;
     display: flex;
+    font-weight: 400;
     align-items: center;
     text-align: center;
     color: #1e345e;
@@ -686,36 +697,17 @@ display: flex;
 }
 
 
-.textandhcard {
-    display: flex;
-    font-weight: bold;
-    color: #1e345e;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-}
 
 .card1h2 {
     width: 100%;
-    justify-content: center;
-    text-align: center;
-    font-weight: 700;
+    display: flex;
+   font-weight: 700;
     margin-top: 30px;
-    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
 
     margin-bottom: 15px;
-}
-
-.card1h4 {
-    width: 80%;
-    margin-left: 30px;
-    margin-right: 30px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-weight: 600;
-    color: gray;
-    font-size: medium;
 }
 
 @media (min-width: 768px) {
@@ -724,7 +716,7 @@ display: flex;
     }
 
     .cardmainaa {
-        width: calc(28% - 20px);
+        width: calc(32% - 20px);
     }
 }
 
@@ -748,9 +740,9 @@ display: flex;
     min-height: 400px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 80px;
+    padding: 6%;
     
    animation: slideUpFadeIn 1s ease forwards; 
    animation-delay: 0.3s; 
@@ -774,11 +766,14 @@ display: flex;
 
 .cont8a {
 
-    width: 40%;
+    width: 30%;
+
     display: flex;
     border: 2px solid rgb(250, 201, 21);
-    height: 60%;
+    height: 322px;
+    padding: 0px 16px;
     border-radius: 20px;
+    
     text-align: center;
     flex-direction: column;
     justify-content: center;
@@ -786,8 +781,9 @@ display: flex;
 }
 
 .cont8b {
-    width: 60%;
+    width: 70%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -795,6 +791,7 @@ display: flex;
 
 .fform {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -896,6 +893,10 @@ input[type="button"] {
     flex-direction: row;
     width: 100%;
     float: left;
+    animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 
 }
 
@@ -905,6 +906,10 @@ input[type="button"] {
     font-size: 15px;
     color: #2A3855;
     opacity: 0.5;
+    animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 
 }
 
@@ -928,20 +933,51 @@ input[type="button"] {
 
 
 
-
-
-.div11 {
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
 .big11 {
-    height: 100%;
-    width: 100%;
+    
+    background-image: url(Image/background-15.jpg);    
     object-fit: cover;
+    width: 100%; height: 86vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 1; 
+    
+     background-position: center;
+     background-attachment: scroll;
+
+     animation: slideUpFadeIn 1s ease forwards; 
+   animation-delay: 0.3s; 
+   animation-iteration-count: 1; 
+   animation-fill-mode: forwards;
 
 
 }
+
+@media screen and (min-width:750px) {
+ .texdiv231span{
+
+ }
+ .texdiv231dm{
+
+ }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1336,11 +1372,24 @@ h3 i {
 @media screen and (max-width: 768px) {
     .cont5tpa {
         display: flex;
-        flex-direction: column-reverse;align-items: center; }
+        flex-direction: column-reverse;align-items: center; 
+        
+    }
+    
 
     .col-md-6 {
         order: 1;}
 
     .cont5tpa {
         order: 2; }
+}
+
+
+
+
+.texdiv231h1, .texdiv231p, .texdiv231h1topd1, .texdiv231span, .texdiv231d{
+    animation: slideUpFadeIn 1s ease forwards; 
+    animation-delay: 0.3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
 }
