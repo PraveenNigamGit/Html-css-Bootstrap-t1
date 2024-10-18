@@ -1287,6 +1287,7 @@ h3 i {
 
 .mainh3{
     color: #1e345e;
+    font-size: 20px;
 
 }
 .mainalast:hover{
@@ -1303,9 +1304,6 @@ h3 i {
     text-decoration: none;
 }
 
-.mainh3{
-
-}
 
 
 .mainalast{
